@@ -32,7 +32,6 @@
 
 ## TO RUN THE SERVER 
 -Write on the terminal = node app.js
-## Visit : http://localhost:3000/listings
 
 ## Images Related to the Project
 
