@@ -49,7 +49,8 @@
 <img width="1843" height="908" alt="Screenshot 2025-07-22 162347" src="https://github.com/user-attachments/assets/ffee1f2c-8252-41f7-a6a3-a3abd9ff7f88" />
 
 5-Review Section
-<img width="1843" height="908" alt="Screenshot 2025-07-22 162347" src="https://github.com/user-attachments/assets/59a932e7-e408-4f2f-9073-e92f701d7d38" />
+<img width="1840" height="898" alt="Screenshot 2025-07-22 162244" src="https://github.com/user-attachments/assets/8c121249-a0ce-4985-8138-d2cca258a1ab" />
+
 
 
 
