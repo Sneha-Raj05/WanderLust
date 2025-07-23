@@ -3,6 +3,13 @@ require('dotenv').config();
 
 console.log("NODE_ENV:", process.env.NODE_ENV);
 console.log("Environment variables loaded");
+console.log("=== ALL ENV VARS CHECK ===");
+console.log("ATLASDB_URL exists:", 'ATLASDB_URL' in process.env);
+console.log("SECRET exists:", 'SECRET' in process.env);
+console.log("All keys with ATLAS:", Object.keys(process.env).filter(k => k.includes('ATLAS')));
+console.log("All keys with URL:", Object.keys(process.env).filter(k => k.includes('URL')));
+console.log("=== END DEBUG ===");
+
 
 const express=require("express")
 const app=express()
