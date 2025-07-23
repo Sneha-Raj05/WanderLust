@@ -31,7 +31,9 @@
 | Env         | Managed using dotenv package                                                |
 
 ## TO RUN THE SERVER 
--Write on the terminal = node app.js
+- Write on the terminal = node app.js
+## Link of the Website : https://wanderlust-a-travel-booking-platform.onrender.com
+- Click on Explore in the Dashboard and then explore the website.
 
 ## Images Related to the Project
 
