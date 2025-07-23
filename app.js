@@ -44,11 +44,11 @@ app.set("views",path.join(__dirname,"views"))
 app.use(express.urlencoded({extended:true}));//SHOW ROUTE ME LIKHTE H YE
 app.use(methodOverride("_method"))
 app.engine('ejs',ejsMate)
-app.use(express.static(path.join(__dirname,"/public"))) //ye jab styling karenge tab likhenege
+app.use(express.static(path.join(__dirname,"/public"))) //yWhile styling we write this
 
 
 const store = MongoStore.create({
-    mongoUrl:dbUrl,
+    mongoUrl:ATLASDB_URL,,
     crypto:{
       secret:process.env.SECRET,
     },
@@ -93,7 +93,7 @@ passport.serializeUser(User.serializeUser());//store karna mtlb serialize
 passport.deserializeUser(User.deserializeUser());
 
 
-//flash ke waqt use karte hai
+//While using Flash
 app.use((req,res,next)=>{
     res.locals.success=req.flash("success")
     res.locals.error=req.flash("error")
