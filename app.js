@@ -27,6 +27,13 @@ const userRouter=require("./routes/user.js")
 
 const dbUrl=process.env.ATLASDB_URL;
 
+console.log("dbUrl value:", dbUrl);
+console.log("dbUrl type:", typeof dbUrl);
+if (!dbUrl) {
+    console.error("ATLASDB_URL is undefined!");
+    process.exit(1);
+}
+
 async function main(){
     await mongoose.connect(dbUrl)
 }
@@ -48,7 +55,7 @@ app.use(express.static(path.join(__dirname,"/public"))) //yWhile styling we writ
 
 
 const store = MongoStore.create({
-    mongoUrl:process.env.ATLASDB_URL,
+    mongoUrl:dbUrl,
     crypto:{
       secret:process.env.SECRET,
     },
