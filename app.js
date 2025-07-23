@@ -48,7 +48,7 @@ app.use(express.static(path.join(__dirname,"/public"))) //yWhile styling we writ
 
 
 const store = MongoStore.create({
-    mongoUrl:ATLASDB_URL,,
+    mongoUrl:ATLASDB_URL,
     crypto:{
       secret:process.env.SECRET,
     },
