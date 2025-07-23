@@ -32,8 +32,7 @@
 
 ## TO RUN THE SERVER 
 - Write on the terminal = node app.js
-## Link of the Website : https://wanderlust-a-travel-booking-platform.onrender.com
-- Click on Explore in the Dashboard and then explore the website.
+## Link of the Website : https://wanderlust-d8cv.onrender.com
 
 ## Images Related to the Project
 
