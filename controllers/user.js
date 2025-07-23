@@ -30,7 +30,7 @@ module.exports.renderLogin = (req,res)=>{
 
 
 module.exports.loginForm=async(req,res)=>{
-    req.flash("success",Congratulations! Login successfull.")
+    req.flash("success","Congratulations! Login successfull.")
     let redirectUrl=res.locals.redirectUrl||"/listings";
     res.redirect(redirectUrl)
 }
