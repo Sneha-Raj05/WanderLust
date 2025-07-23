@@ -89,11 +89,9 @@ const sessionOptions={
     }
 }
 
-// app.get("/",(req,res)=>{
-//     res.send("Hi,I am root!")
-//     })
-
-
+app.get("/",(req,res)=>{
+    res.redirect("/listings");
+    })
 
 
 app.use(session(sessionOptions))
@@ -104,7 +102,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 passport.use(new LocalStrategy(User.authenticate()))
 
-passport.serializeUser(User.serializeUser());//store karna mtlb serialize
+passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 
