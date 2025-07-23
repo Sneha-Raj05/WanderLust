@@ -28,7 +28,7 @@
 | *Middleware*| Express Router, Flash Messages, Custom Middlewares                          |
 | *Uploads*   | Multer for handling multipart form-data                                     |
 | *Storage*   | MongoDB session store using connect-mongo                                   |
-| *Env *      | Managed using dotenv package                                                |
+| Env         | Managed using dotenv package                                                |
 
 ## TO RUN THE SERVER 
 -Write on the terminal = node app.js
