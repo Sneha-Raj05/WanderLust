@@ -30,8 +30,7 @@
 | *Storage*   | MongoDB session store using connect-mongo                                   |
 | Env         | Managed using dotenv package                                                |
 
-## TO RUN THE SERVER 
-- Write on the terminal = node app.js
+
 ## Link of the Website : https://wanderlust-d8cv.onrender.com
 
 ## Images Related to the Project
