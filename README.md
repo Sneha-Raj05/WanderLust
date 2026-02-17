@@ -31,7 +31,7 @@
 | Env         | Managed using dotenv package                                                |
 
 
-## Link of the Website : https://wanderlust-d8cv.onrender.com
+## Link of the Website : https://wanderlust-r323.onrender.com/
 
 ## Images Related to the Project
 
